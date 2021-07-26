@@ -31,3 +31,12 @@ a:hover {
     justify-content: space-evenly;
     font-size: larger;
 }
+
+.call-to-action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: coral;
+    padding: 20px;
+}
+
