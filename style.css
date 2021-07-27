@@ -5,7 +5,7 @@ body {
   }
 
 header {
-    background-color: coral;
+    background-color: #718792;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -14,7 +14,7 @@ header {
 a {
     margin: 0.9em;
     text-decoration: none;
-    color: blue;
+    color: black;
 }
 
 a:hover {
@@ -36,7 +36,78 @@ a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: coral;
+    background-color: #718792;
     padding: 20px;
 }
+
+.button {
+    border-color: aliceblue;
+    padding: 15px 32px;
+    margin: 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: #0068bf;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';    
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s
+}
+
+.button:hover span {
+padding-right: 25px;
+}
+
+.button-hover span:after {
+    opacity: 1;
+    right: 0;
+}
+img {
+max-width: 280px;
+height: auto;
+border-radius: 3px;
+}
+
+.main-section {
+    display: grid;
+    grid-column-gap: 20px;
+    align-items: top;
+    padding: 20px;
+}
+
+.speakers {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.schedule {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.venue {
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+footer {
+
+}
+
 
