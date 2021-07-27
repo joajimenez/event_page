@@ -86,7 +86,7 @@ border-radius: 3px;
 
 .main-section {
     display: grid;
-    grid-column-gap: 20px;
+    grid-column-gap: 10px;
     align-items: top;
     padding: 20px;
 }
@@ -107,6 +107,10 @@ border-radius: 3px;
 }
 
 footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #718792;
 
 }
 
