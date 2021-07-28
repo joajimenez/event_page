@@ -18,7 +18,11 @@
 h1 {
   font-family: "Poppins", cursive;
   font-weight: 800;
-  font-size: 30px;
+  font-size: 25px;
+}
+
+h2 {
+    font-family: "poppins", cursive;
 }
 
 img {
@@ -46,10 +50,6 @@ nav {
   justify-content: space-between;
   padding: 10px;
   border-radius: 5px;
-}
-
-nav > .main-title {
-  font-size: larger;
 }
 
 main {
